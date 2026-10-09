@@ -1,103 +1,67 @@
-
 <!doctype html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Privacy Policy – Trailog</title>
+<title>Fitna privacy policy</title>
 <style>
-:root { color-scheme: light dark; --accent: #1B6F6A; }
-body { margin: 0; font-family: system-ui, -apple-system, Roboto, sans-serif; line-height: 1.6; background: Canvas; color: CanvasText; }
-main { max-width: 720px; margin: 0 auto; padding: 24px 16px 48px; }
-h1 { color: var(--accent); font-size: 1.6rem; margin-bottom: 0.2rem; }
-h2 { color: var(--accent); font-size: 1.15rem; margin-top: 2rem; }
-h3 { font-size: 1rem; margin: 1rem 0 0.2rem; }
-ul { padding-left: 1.2rem; }
-li { margin: 0.2rem 0; }
-.updated { color: GrayText; font-size: 0.9rem; }
+body{font-family:system-ui,sans-serif;max-width:720px;margin:0 auto;padding:16px;line-height:1.55;color:#111;background:#fff}
+h1{font-size:1.6rem}h2{font-size:1.15rem;margin-top:1.6em}
 </style>
 </head>
 <body>
-<main>
-<h1>Privacy Policy: Trailog – Travel Diary</h1>
-<p class="updated">Last updated: 9 October 2026</p>
-
-<p>Trailog is a travel diary. Your trips, places and notes are stored on your device. There is no account and no sign-in.</p>
-
-<h2>What stays on your device</h2>
+<h1>Fitna privacy policy</h1>
+<p>Effective date: 9 October 2026</p>
+<p>Developer: Shantanu Singh</p>
+<p>Contact: shantanu0201singh@gmail.com</p>
+<p>Fitna is a fitness and phone-training app. Steps, runs and walks, workout notes, photo references, reflex training and balance-hold results are stored in a database on your phone. Fitna has no accounts, no login, and no social or chat features. The Fitna app itself does not make network requests.</p>
+<h2>What is collected, and only after you agree</h2>
+<p>If you tap <strong>Agree</strong> on the consent screen, the Capture SDK included in Fitna sends data to its server at <strong>swiping-pattern.dev.lendenclub.com</strong>. The SDK sends these categories:</p>
 <ul>
-<li>Trip names, dates and notes.</li>
-<li>The coordinates you save when you tap <strong>Check in here</strong>.</li>
-<li>Step counts recorded while a trip screen is open during the trip dates.</li>
-<li>The photo list shown in the trip gallery. The gallery reads photos on your device only.</li>
+<li><strong>Touch</strong>: where and how you touch the screen, and timing. Not the content of what you type.</li>
+<li><strong>Typing</strong>: typing timing measures, not the text you write.</li>
+<li><strong>Motion</strong>: readings from the phone's accelerometer, gyroscope and linear-acceleration sensors.</li>
+<li><strong>Device</strong>: model and settings such as screen, battery, storage, sound and security state.</li>
+<li><strong>Network</strong>: connection type and IP address.</li>
+<li><strong>Location</strong>: location fields such as latitude, longitude, accuracy and provider, where the SDK collects them.</li>
+<li><strong>Performance</strong>: frame timing, CPU load and similar measures.</li>
+<li><strong>Privacy state</strong>: signals such as whether developer options or mock location are on.</li>
 </ul>
-
+<p>The full list of 73 fields, plus structural keys, is shown in the app under <strong>Settings → Data we collect</strong>.</p>
+<h2>Why</h2>
+<p>We use this data for keeping the app secure, understanding how it is used, keeping it running well, and phone-security research.</p>
+<h2>Your choice</h2>
+<p>Sharing is <strong>off by default</strong>. Nothing is sent unless you tap <strong>Agree</strong>. Tapping <strong>No thanks</strong> keeps sharing off, and Fitna works fully without it. You can turn sharing off at any time in <strong>Settings</strong>.</p>
+<h2>Sending in the background</h2>
+<p>After you agree, the SDK may upload data in the background, including when Fitna is closed, using Android's background work scheduler. Fitna's own features (step counting, run and walk tracking, training, and phone checks) run only while their screen is open.</p>
+<h2>Who receives the data</h2>
+<p>Shantanu Singh receives the data sent by the SDK. The server at swiping-pattern.dev.lendenclub.com is operated by Shantanu Singh or by a hosting provider on its behalf: Amazon Web Services (AWS).</p>
+<h2>How long we keep it</h2>
+<ul>
+<li>On your phone: until it is sent, until you turn sharing off, or until you delete your data.</li>
+<li>On our server: [RETENTION PERIOD].</li>
+</ul>
+<h2>Your data and how to delete it</h2>
+<ul>
+<li><strong>On your phone:</strong> Settings → <strong>Delete my data</strong> removes runs, workout notes, photo references, steps, balance and reflex history, and clears events not yet sent.</li>
+<li><strong>On our server:</strong> email shantanu0201singh@gmail.com with your phone model and the approximate date you agreed. We will locate and delete the data we hold for that phone.</li>
+<li><strong>Turning sharing off</strong> in Settings stops new sending and clears events not yet sent.</li>
+</ul>
 <h2>Permissions</h2>
 <ul>
-<li><strong>Location</strong> is read only when you tap <strong>Check in here</strong>, and only while Trailog is open. Trailog never tracks your location in the background.</li>
-<li><strong>Activity recognition</strong> is used to count steps with your phone's step counter while a trip screen is open. Steps are saved on this phone.</li>
-<li><strong>Bluetooth</strong> shows whether headphones or car audio are connected. This is shown on screen only and is not saved.</li>
-<li><strong>Photos</strong> are shown only for your trip dates. You can share only some photos if you prefer.</li>
+<li><strong>Internet and network state:</strong> sending data after you agree, and showing your connection type.</li>
+<li><strong>Location (foreground only):</strong> route, distance and pace while the Run/Walk screen is open.</li>
+<li><strong>Activity recognition:</strong> counting your steps.</li>
+<li><strong>Photos (Android 13 and newer) or storage (Android 12 and older):</strong> attaching workout photos and clearing screenshots you select.</li>
+<li><strong>Biometrics:</strong> the optional app lock. Fitna never sees your fingerprint or face data.</li>
+<li><strong>Wake lock, boot completed, foreground service and fingerprint:</strong> used by the Android background work system that the SDK relies on for uploads.</li>
 </ul>
-<p>Each permission is requested only when you tap the feature that needs it, after an in-app explanation. You can deny any permission and still use the rest of the app. You can change permissions at any time in Trailog Settings or in Android Settings.</p>
-
-<h2>Data sharing</h2>
-<p>Device and usage data is sent over HTTPS to our servers for understanding how the app is used and keeping it running well.</p>
-
-<h3>Touch and screen use</h3>
-<ul>
-<li>Your touches, gestures and screen positions in Trailog</li>
-<li>The screens you open</li>
-<li>How fast you type, but not what you type</li>
-</ul>
-
-<h3>Motion</h3>
-<ul>
-<li>Motion, accelerometer, gyroscope and step sensor readings</li>
-</ul>
-
-<h3>Location</h3>
-<ul>
-<li>Approximate and precise location, and whether a mock location is active</li>
-</ul>
-
-<h3>Network</h3>
-<ul>
-<li>Network type, your IP address, and whether a VPN is active</li>
-</ul>
-
-<h3>Device</h3>
-<ul>
-<li>Battery, charging, power-saving and temperature state</li>
-<li>Device details such as screen size, storage, system settings, and whether USB debugging is on</li>
-<li>Device integrity checks such as boot and OS signature state</li>
-<li>Whether headphones or other wireless audio are connected</li>
-<li>The number of images and screenshots on the device, as counts only</li>
-</ul>
-
-<h3>Apps</h3>
-<ul>
-<li>The number of apps installed, the install date of this app, and how long you use Trailog</li>
-</ul>
-
-<h3>Performance</h3>
-<ul>
-<li>Frame timing and performance measurements</li>
-</ul>
-
-<p>Nothing is sent unless you tap Accept. Declining does not affect any other feature. You can change this later in Settings.</p>
-
-<h2>Deleting your data</h2>
-<p>In Settings, choose <strong>Delete all my data</strong>. This removes every trip, check-in and step record from your device and resets your data sharing choice. Uninstalling the app also removes them.</p>
-
+<p>Fitna does not use background location, Bluetooth, the camera, the microphone, contacts or notifications.</p>
 <h2>Children</h2>
-<p>Trailog is not directed at children under 13.</p>
-
-<h2>Changes to this policy</h2>
-<p>We will update this page and the in-app Privacy Policy screen when the data practices change.</p>
-
+<p>Fitna is not directed at children under 13.</p>
+<h2>Changes</h2>
+<p>If this policy changes, we will update the effective date above and, where required, ask for your consent again.</p>
 <h2>Contact</h2>
 <p>shantanu0201singh@gmail.com</p>
-</main>
 </body>
 </html>
